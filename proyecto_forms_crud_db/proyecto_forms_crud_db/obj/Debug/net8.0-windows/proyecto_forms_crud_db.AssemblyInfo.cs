@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("proyecto_forms_crud_db")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bfcc534bb4629eee4e1aa0b56d695dd33d1448c")]
 [assembly: System.Reflection.AssemblyProductAttribute("proyecto_forms_crud_db")]
 [assembly: System.Reflection.AssemblyTitleAttribute("proyecto_forms_crud_db")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

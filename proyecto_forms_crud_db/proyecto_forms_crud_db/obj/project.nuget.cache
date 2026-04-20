@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SfiyymnarQg=",
+  "dgSpecHash": "n4L9fC4jrCc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\asd\\proyecto_forms_crud_db\\proyecto_forms_crud_db\\proyecto_forms_crud_db.csproj",
+  "projectFilePath": "D:\\tp1\\proyecto_forms_crud_db\\proyecto_forms_crud_db\\proyecto_forms_crud_db.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.26\\microsoft.data.sqlite.core.8.0.26.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.26\\microsoft.entityframeworkcore.8.0.26.nupkg.sha512",

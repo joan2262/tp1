@@ -16,3 +16,15 @@ C:\Users\Alumno\Desktop\asd\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\De
 C:\Users\Alumno\Desktop\asd\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\ref\proyecto_forms_crud_db.dll
 C:\Users\Alumno\Desktop\asd\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.Form2.resources
 C:\Users\Alumno\Desktop\asd\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.csproj.AssemblyReference.cache
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.csproj.AssemblyReference.cache
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.Form1.resources
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.Form2.resources
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.csproj.GenerateResource.cache
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.GeneratedMSBuildEditorConfig.editorconfig
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.AssemblyInfoInputs.cache
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.AssemblyInfo.cs
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.csproj.CoreCompileInputs.cache
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.sourcelink.json
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.dll
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\refint\proyecto_forms_crud_db.dll
+D:\tp1\proyecto_forms_crud_db\proyecto_forms_crud_db\obj\Debug\net8.0-windows\proyecto_forms_crud_db.pdb
