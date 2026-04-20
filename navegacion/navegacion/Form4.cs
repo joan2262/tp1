@@ -10,10 +10,11 @@ using System.Windows.Forms;
 
 namespace navegacion
 {
-    public partial class Form4 : Form
+    public partial class Form4Editar : Form
     {
         Form1 ventanaOrigen;
-        public Form4(Form1 origen)
+        int objetivoEdicion;
+        public Form4Editar(Form1 origen)
         {
             InitializeComponent();
             ventanaOrigen = origen;
@@ -23,6 +24,12 @@ namespace navegacion
         {
             ventanaOrigen.Show();
             this.Hide();
+        }
+
+        public void PrepararEditar(int ideditar)
+        {
+            objetivoEdicion = ideditar;
+            this.Show();
         }
     }
 }

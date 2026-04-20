@@ -16,6 +16,7 @@ namespace navegacion
         SqliteConnection conexion;
         string stringConexion = "Datasource = personas.db";
         Form1 ventanaOrigen;
+        Form4Editar ventanaEditar;
         public Form2(Form1 origen)
         {
             InitializeComponent();
@@ -57,6 +58,16 @@ namespace navegacion
         private void Form2_Load(object sender, EventArgs e)
         {
             actualizarDataGrid();
+        }
+
+        private void buttonEditarForm3_Click(object sender, EventArgs e)
+        {
+            if (dgvEmpleados.SelectedRows.Count <= 0)
+                return;
+
+            int idSel = Convert.ToInt32(dgvEmpleados.SelectedRows[0].Cells["id"].Value);
+            ventanaOrigen.VentanaEditar.PrepararEditar(idSel);
+            this.Hide();
         }
     }
 }

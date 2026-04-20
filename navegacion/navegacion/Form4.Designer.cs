@@ -1,6 +1,6 @@
 ﻿namespace navegacion
 {
-    partial class Form4
+    partial class Form4Editar
     {
         /// <summary>
         /// Required designer variable.
@@ -41,14 +41,14 @@
             btnForm4Volver.UseVisualStyleBackColor = true;
             btnForm4Volver.Click += btnForm4Volver_Click;
             // 
-            // Form4
+            // Form4Editar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(btnForm4Volver);
-            Name = "Form4";
-            Text = "Form4";
+            Name = "Form4Editar";
+            Text = "+";
             ResumeLayout(false);
         }
 

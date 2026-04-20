@@ -12,10 +12,16 @@ namespace navegacion
 
         Form2 ventanaVer;
         Form3 ventanaAgregar;
-        Form4 ventanaBorrar;
-        Form5 ventanaEditar;
+        Form4Editar ventanaEditar;
+        Form5 ventanaEditar2;
 
-
+        public Form4Editar VentanaEditar
+        {
+            get
+            {
+                return ventanaEditar;
+            }
+        }
 
 
         public Form1()
@@ -25,8 +31,8 @@ namespace navegacion
 
             ventanaVer = new Form2(this);
             ventanaAgregar = new Form3(this);
-            ventanaBorrar = new Form4(this);
-            ventanaEditar = new Form5(this);
+            ventanaEditar = new Form4Editar(this);
+            ventanaEditar2 = new Form5(this);
 
 
 
@@ -48,11 +54,6 @@ namespace navegacion
 
         }
 
-        private void btnFormBorrarEmpleados_Click(object sender, EventArgs e)
-        {
-            ventanaBorrar.Show();
-            this.Hide();
-        }
 
 
         private void btnFormEditarEmpleados_Click(object sender, EventArgs e)

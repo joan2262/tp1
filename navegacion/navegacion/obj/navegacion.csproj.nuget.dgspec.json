@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Desktop\\asd\\navegacion\\navegacion\\navegacion.csproj": {}
+    "D:\\tp1\\navegacion\\navegacion\\navegacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Desktop\\asd\\navegacion\\navegacion\\navegacion.csproj": {
+    "D:\\tp1\\navegacion\\navegacion\\navegacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\asd\\navegacion\\navegacion\\navegacion.csproj",
+        "projectUniqueName": "D:\\tp1\\navegacion\\navegacion\\navegacion.csproj",
         "projectName": "navegacion",
-        "projectPath": "C:\\Users\\Alumno\\Desktop\\asd\\navegacion\\navegacion\\navegacion.csproj",
+        "projectPath": "D:\\tp1\\navegacion\\navegacion\\navegacion.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Desktop\\asd\\navegacion\\navegacion\\obj\\",
+        "outputPath": "D:\\tp1\\navegacion\\navegacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

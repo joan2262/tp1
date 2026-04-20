@@ -31,8 +31,6 @@
             labelCartel = new Label();
             btnFormVerEmpleados = new Button();
             btnFormAgregarEmpleados = new Button();
-            btnFormEditarEmpleados = new Button();
-            btnFormBorrarEmpleados = new Button();
             SuspendLayout();
             // 
             // labelCartel
@@ -47,7 +45,7 @@
             // 
             // btnFormVerEmpleados
             // 
-            btnFormVerEmpleados.Location = new Point(375, 163);
+            btnFormVerEmpleados.Location = new Point(377, 253);
             btnFormVerEmpleados.Name = "btnFormVerEmpleados";
             btnFormVerEmpleados.Size = new Size(263, 49);
             btnFormVerEmpleados.TabIndex = 1;
@@ -57,7 +55,7 @@
             // 
             // btnFormAgregarEmpleados
             // 
-            btnFormAgregarEmpleados.Location = new Point(375, 235);
+            btnFormAgregarEmpleados.Location = new Point(375, 358);
             btnFormAgregarEmpleados.Name = "btnFormAgregarEmpleados";
             btnFormAgregarEmpleados.Size = new Size(265, 49);
             btnFormAgregarEmpleados.TabIndex = 2;
@@ -65,33 +63,11 @@
             btnFormAgregarEmpleados.UseVisualStyleBackColor = true;
             btnFormAgregarEmpleados.Click += btnFormAgregarEmpleados_Click;
             // 
-            // btnFormEditarEmpleados
-            // 
-            btnFormEditarEmpleados.Location = new Point(375, 371);
-            btnFormEditarEmpleados.Name = "btnFormEditarEmpleados";
-            btnFormEditarEmpleados.Size = new Size(262, 47);
-            btnFormEditarEmpleados.TabIndex = 3;
-            btnFormEditarEmpleados.Text = "Editar empleados";
-            btnFormEditarEmpleados.UseVisualStyleBackColor = true;
-            btnFormEditarEmpleados.Click += btnFormEditarEmpleados_Click;
-            // 
-            // btnFormBorrarEmpleados
-            // 
-            btnFormBorrarEmpleados.Location = new Point(375, 301);
-            btnFormBorrarEmpleados.Name = "btnFormBorrarEmpleados";
-            btnFormBorrarEmpleados.Size = new Size(262, 48);
-            btnFormBorrarEmpleados.TabIndex = 4;
-            btnFormBorrarEmpleados.Text = "Eliminar empleados";
-            btnFormBorrarEmpleados.UseVisualStyleBackColor = true;
-            btnFormBorrarEmpleados.Click += btnFormBorrarEmpleados_Click;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1045, 602);
-            Controls.Add(btnFormBorrarEmpleados);
-            Controls.Add(btnFormEditarEmpleados);
             Controls.Add(btnFormAgregarEmpleados);
             Controls.Add(btnFormVerEmpleados);
             Controls.Add(labelCartel);
@@ -106,7 +82,5 @@
         private Label labelCartel;
         private Button btnFormVerEmpleados;
         private Button btnFormAgregarEmpleados;
-        private Button btnFormEditarEmpleados;
-        private Button btnFormBorrarEmpleados;
     }
 }
