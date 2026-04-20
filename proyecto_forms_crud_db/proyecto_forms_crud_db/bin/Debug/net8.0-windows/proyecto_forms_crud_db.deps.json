@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "proyecto_forms_crud_db/1.0.0": {
+        "runtime": {
+          "proyecto_forms_crud_db.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "proyecto_forms_crud_db/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
