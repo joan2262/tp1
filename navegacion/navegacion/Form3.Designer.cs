@@ -49,7 +49,7 @@
             // 
             // textNombre
             // 
-            textNombre.Location = new Point(116, 74);
+            textNombre.Location = new Point(116, 239);
             textNombre.Name = "textNombre";
             textNombre.PlaceholderText = "Nombre";
             textNombre.Size = new Size(115, 23);
@@ -57,7 +57,7 @@
             // 
             // textApellido
             // 
-            textApellido.Location = new Point(275, 74);
+            textApellido.Location = new Point(275, 239);
             textApellido.Name = "textApellido";
             textApellido.PlaceholderText = "Apellido";
             textApellido.Size = new Size(115, 23);
@@ -65,7 +65,7 @@
             // 
             // textDNI
             // 
-            textDNI.Location = new Point(427, 74);
+            textDNI.Location = new Point(427, 239);
             textDNI.Name = "textDNI";
             textDNI.PlaceholderText = "DNI";
             textDNI.Size = new Size(115, 23);
@@ -73,7 +73,7 @@
             // 
             // textTelefono
             // 
-            textTelefono.Location = new Point(591, 74);
+            textTelefono.Location = new Point(591, 239);
             textTelefono.Name = "textTelefono";
             textTelefono.PlaceholderText = "Telefono";
             textTelefono.Size = new Size(115, 23);
@@ -81,7 +81,7 @@
             // 
             // textCargo
             // 
-            textCargo.Location = new Point(743, 74);
+            textCargo.Location = new Point(743, 239);
             textCargo.Name = "textCargo";
             textCargo.PlaceholderText = "Cargo";
             textCargo.Size = new Size(115, 23);
@@ -89,7 +89,7 @@
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(116, 118);
+            btnAgregar.Location = new Point(116, 343);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(742, 35);
             btnAgregar.TabIndex = 6;

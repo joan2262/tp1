@@ -53,15 +53,5 @@ namespace navegacion
             this.Hide();
 
         }
-
-
-
-        private void btnFormEditarEmpleados_Click(object sender, EventArgs e)
-        {
-            ventanaEditar.Show();
-            this.Hide();
-        }
-
-
     }
 }

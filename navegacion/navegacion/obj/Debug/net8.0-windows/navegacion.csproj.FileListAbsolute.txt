@@ -105,7 +105,6 @@ D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.csproj.Assembly
 D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.Form1.resources
 D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.Form2.resources
 D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.Form3.resources
-D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.Form4.resources
 D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.Form5.resources
 D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.csproj.GenerateResource.cache
 D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.GeneratedMSBuildEditorConfig.editorconfig
@@ -120,3 +119,4 @@ D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.pdb
 D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.genruntimeconfig.cache
 D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\ref\navegacion.dll
 D:\tp1\navegacion\navegacion\obj\Debug\net8.0-windows\navegacion.Form4Editar.resources
+D:\tp1\navegacion\navegacion\bin\Debug\net8.0-windows\personas.db

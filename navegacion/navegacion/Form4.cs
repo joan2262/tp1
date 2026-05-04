@@ -30,6 +30,8 @@ namespace navegacion
         {
             objetivoEdicion = ideditar;
             this.Show();
+
+
         }
     }
 }

@@ -36,8 +36,8 @@
             dni = new DataGridViewTextBoxColumn();
             telefono = new DataGridViewTextBoxColumn();
             cargo = new DataGridViewTextBoxColumn();
-            buttonEliminar = new Button();
-            buttonEditarForm3 = new Button();
+            BtnEliminar = new Button();
+            BtnEditar = new Button();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)dgvEmpleados).BeginInit();
             SuspendLayout();
@@ -106,32 +106,32 @@
             cargo.Name = "cargo";
             cargo.ReadOnly = true;
             // 
-            // buttonEliminar
+            // BtnEliminar
             // 
-            buttonEliminar.Location = new Point(733, 347);
-            buttonEliminar.Name = "buttonEliminar";
-            buttonEliminar.Size = new Size(130, 29);
-            buttonEliminar.TabIndex = 2;
-            buttonEliminar.Text = "Eliminiar";
-            buttonEliminar.UseVisualStyleBackColor = true;
+            BtnEliminar.Location = new Point(733, 347);
+            BtnEliminar.Name = "BtnEliminar";
+            BtnEliminar.Size = new Size(130, 29);
+            BtnEliminar.TabIndex = 2;
+            BtnEliminar.Text = "Eliminiar";
+            BtnEliminar.UseVisualStyleBackColor = true;
             // 
-            // buttonEditarForm3
+            // BtnEditar
             // 
-            buttonEditarForm3.Location = new Point(581, 347);
-            buttonEditarForm3.Name = "buttonEditarForm3";
-            buttonEditarForm3.Size = new Size(130, 29);
-            buttonEditarForm3.TabIndex = 3;
-            buttonEditarForm3.Text = "Editar";
-            buttonEditarForm3.UseVisualStyleBackColor = true;
-            buttonEditarForm3.Click += buttonEditarForm3_Click;
+            BtnEditar.Location = new Point(581, 347);
+            BtnEditar.Name = "BtnEditar";
+            BtnEditar.Size = new Size(130, 29);
+            BtnEditar.TabIndex = 3;
+            BtnEditar.Text = "Editar";
+            BtnEditar.UseVisualStyleBackColor = true;
+            BtnEditar.Click += buttonEditarForm3_Click;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1048, 603);
-            Controls.Add(buttonEditarForm3);
-            Controls.Add(buttonEliminar);
+            Controls.Add(BtnEditar);
+            Controls.Add(BtnEliminar);
             Controls.Add(dgvEmpleados);
             Controls.Add(btnCambiarForm2);
             Name = "Form2";
@@ -151,8 +151,8 @@
         private DataGridViewTextBoxColumn dni;
         private DataGridViewTextBoxColumn telefono;
         private DataGridViewTextBoxColumn cargo;
-        private Button buttonEliminar;
-        private Button buttonEditarForm3;
+        private Button BtnEliminar;
+        private Button BtnEditar;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

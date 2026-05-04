@@ -24,7 +24,7 @@ namespace navegacion
             ventanaOrigen = origen;
         }
 
-
+        
         private void btnCambiarForm2_Click(object sender, EventArgs e)
         {
             ventanaOrigen.Show();
@@ -64,10 +64,17 @@ namespace navegacion
         {
             if (dgvEmpleados.SelectedRows.Count <= 0)
                 return;
+            else
+                Form4Editar.Show();
+                this.Hide();
+
+
 
             int idSel = Convert.ToInt32(dgvEmpleados.SelectedRows[0].Cells["id"].Value);
             ventanaOrigen.VentanaEditar.PrepararEditar(idSel);
             this.Hide();
         }
     }
+
+      
 }
