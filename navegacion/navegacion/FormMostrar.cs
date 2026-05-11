@@ -11,17 +11,18 @@ using System.Windows.Forms;
 
 namespace navegacion
 {
-    public partial class Form2 : Form
+    public partial class FormMostrar : Form
     {
-        SqliteConnection conexion;
+        public SqliteConnection conexion;
         string stringConexion = "Datasource = personas.db";
-        Form1 ventanaOrigen;
+        FormInicio ventanaOrigen;
         Form4Editar ventanaEditar;
-        public Form2(Form1 origen)
+        public FormMostrar(FormInicio origen)
         {
             InitializeComponent();
             conexion = new SqliteConnection(stringConexion);
             ventanaOrigen = origen;
+            ventanaEditar = new Form4Editar(this);
         }
 
         
@@ -50,8 +51,9 @@ namespace navegacion
                     fila["nombre"].ToString(),
                     fila["apellido"].ToString(),
                     fila["telefono"].ToString(),
-                    fila["direccion"].ToString(),
-                    fila["dni"].ToString());
+                    fila["dni"].ToString(),
+                    fila["cargo"].ToString());
+                    
             }
         }
 
@@ -64,14 +66,14 @@ namespace navegacion
         {
             if (dgvEmpleados.SelectedRows.Count <= 0)
                 return;
-            else
-                Form4Editar.Show();
-                this.Hide();
+
+            ventanaEditar.Show();
+            this.Hide();
 
 
 
             int idSel = Convert.ToInt32(dgvEmpleados.SelectedRows[0].Cells["id"].Value);
-            ventanaOrigen.VentanaEditar.PrepararEditar(idSel);
+            ventanaEditar.PrepararEditar(idSel);
             this.Hide();
         }
     }

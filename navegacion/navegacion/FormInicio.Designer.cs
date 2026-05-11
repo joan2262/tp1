@@ -1,6 +1,6 @@
 ﻿namespace navegacion
 {
-    partial class Form1
+    partial class FormInicio
     {
         /// <summary>
         ///  Required designer variable.

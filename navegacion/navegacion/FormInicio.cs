@@ -3,15 +3,15 @@ using System.Data;
 
 namespace navegacion
 {
-    public partial class Form1 : Form
+    public partial class FormInicio : Form
     {
 
         SqliteConnection conexion;
         string stringConexion = "Datasource = personas.db";
 
 
-        Form2 ventanaVer;
-        Form3 ventanaAgregar;
+        public FormMostrar ventanaVer;
+        FormAgregar ventanaAgregar;
         Form4Editar ventanaEditar;
         Form5 ventanaEditar2;
 
@@ -24,14 +24,14 @@ namespace navegacion
         }
 
 
-        public Form1()
+        public FormInicio()
         {
             InitializeComponent();
             conexion = new SqliteConnection(stringConexion);
 
-            ventanaVer = new Form2(this);
-            ventanaAgregar = new Form3(this);
-            ventanaEditar = new Form4Editar(this);
+            ventanaVer = new FormMostrar(this);
+            ventanaAgregar = new FormAgregar(this);
+            
             ventanaEditar2 = new Form5(this);
 
 

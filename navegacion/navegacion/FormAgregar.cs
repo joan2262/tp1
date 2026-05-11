@@ -11,12 +11,12 @@ using System.Windows.Forms;
 
 namespace navegacion
 {
-    public partial class Form3 : Form
+    public partial class FormAgregar : Form
     {
         SqliteConnection conexion;
         string stringConexion = "Datasource = personas.db";
-        Form1 ventanaOrigen;
-        public Form3(Form1 origen)
+        FormInicio ventanaOrigen;
+        public FormAgregar(FormInicio origen)
         {
             InitializeComponent();
             conexion = new SqliteConnection(stringConexion);
@@ -59,6 +59,11 @@ namespace navegacion
             comando.ExecuteNonQuery();
 
             conexion.Close();
+
+
+            ventanaOrigen.ventanaVer.actualizarDataGrid();
+            ventanaOrigen.ventanaVer.Show();
+            this.Hide();
 
         }
 

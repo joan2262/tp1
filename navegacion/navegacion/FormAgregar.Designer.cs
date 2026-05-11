@@ -1,6 +1,6 @@
 ﻿namespace navegacion
 {
-    partial class Form3
+    partial class FormAgregar
     {
         /// <summary>
         /// Required designer variable.

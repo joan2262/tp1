@@ -1,6 +1,6 @@
 ﻿namespace navegacion
 {
-    partial class Form2
+    partial class FormMostrar
     {
         /// <summary>
         /// Required designer variable.
@@ -59,8 +59,10 @@
             dgvEmpleados.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvEmpleados.Columns.AddRange(new DataGridViewColumn[] { id, nombre, apellido, dni, telefono, cargo });
             dgvEmpleados.Location = new Point(153, 104);
+            dgvEmpleados.MultiSelect = false;
             dgvEmpleados.Name = "dgvEmpleados";
             dgvEmpleados.ReadOnly = true;
+            dgvEmpleados.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvEmpleados.Size = new Size(710, 225);
             dgvEmpleados.TabIndex = 1;
             // 
@@ -125,7 +127,7 @@
             BtnEditar.UseVisualStyleBackColor = true;
             BtnEditar.Click += buttonEditarForm3_Click;
             // 
-            // Form2
+            // FormMostrar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -134,7 +136,7 @@
             Controls.Add(BtnEliminar);
             Controls.Add(dgvEmpleados);
             Controls.Add(btnCambiarForm2);
-            Name = "Form2";
+            Name = "FormMostrar";
             Text = "Form2";
             Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)dgvEmpleados).EndInit();

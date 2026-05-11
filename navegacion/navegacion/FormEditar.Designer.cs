@@ -35,7 +35,7 @@
             textApellido = new TextBox();
             textNombre = new TextBox();
             Lbl1 = new Label();
-            btnAgregar = new Button();
+            btnEditar = new Button();
             SuspendLayout();
             // 
             // btnForm4Volver
@@ -97,21 +97,22 @@
             Lbl1.TabIndex = 12;
             Lbl1.Text = "Agregar correcciones";
             // 
-            // btnAgregar
+            // btnEditar
             // 
-            btnAgregar.Location = new Point(103, 358);
-            btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(742, 35);
-            btnAgregar.TabIndex = 13;
-            btnAgregar.Text = "Agregar";
-            btnAgregar.UseVisualStyleBackColor = true;
+            btnEditar.Location = new Point(103, 358);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(742, 35);
+            btnEditar.TabIndex = 13;
+            btnEditar.Text = "EditarGOOOD";
+            btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // Form4Editar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1048, 595);
-            Controls.Add(btnAgregar);
+            Controls.Add(btnEditar);
             Controls.Add(Lbl1);
             Controls.Add(textCargo);
             Controls.Add(textTelefono);
@@ -134,6 +135,6 @@
         private TextBox textApellido;
         private TextBox textNombre;
         private Label Lbl1;
-        private Button btnAgregar;
+        private Button btnEditar;
     }
 }

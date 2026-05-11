@@ -12,8 +12,8 @@ namespace navegacion
 {
     public partial class Form5 : Form
     {
-        Form1 ventanaOrigen;
-        public Form5(Form1 origen)
+        FormInicio ventanaOrigen;
+        public Form5(FormInicio origen)
         {
             InitializeComponent();
             ventanaOrigen = origen;
