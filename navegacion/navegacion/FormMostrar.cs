@@ -25,7 +25,7 @@ namespace navegacion
             ventanaEditar = new Form4Editar(this);
         }
 
-        
+
         private void btnCambiarForm2_Click(object sender, EventArgs e)
         {
             ventanaOrigen.Show();
@@ -50,10 +50,10 @@ namespace navegacion
                 dgvEmpleados.Rows.Add(int.Parse(fila["id"].ToString()),
                     fila["nombre"].ToString(),
                     fila["apellido"].ToString(),
-                    fila["telefono"].ToString(),
                     fila["dni"].ToString(),
+                    fila["telefono"].ToString(),
                     fila["cargo"].ToString());
-                    
+
             }
         }
 
@@ -76,7 +76,34 @@ namespace navegacion
             ventanaEditar.PrepararEditar(idSel);
             this.Hide();
         }
+
+        private void BtnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvEmpleados.SelectedRows.Count <= 0)
+                return;
+
+            DialogResult resultado = MessageBox.Show("¿Está seguro?", "Confirmar",
+                                       MessageBoxButtons.YesNo,
+                                       MessageBoxIcon.Warning);
+
+            if (resultado == DialogResult.Yes)
+            {
+                int idSel = Convert.ToInt32(dgvEmpleados.SelectedRows[0].Cells["id"].Value);
+                conexion.Open();
+                string consulta = "DELETE FROM personas WHERE id=@id";
+
+   
+                SqliteCommand comando = new SqliteCommand(consulta, conexion);
+
+                comando.Parameters.Add(new SqliteParameter("@id", idSel));
+
+                comando.ExecuteNonQuery();
+                conexion.Close();
+                ventanaOrigen.ventanaVer.actualizarDataGrid();
+            }
+            
+        }
     }
 
-      
+
 }

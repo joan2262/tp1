@@ -60,13 +60,38 @@ namespace navegacion
             string dni;
             string telefono;
             string cargo;
-            
+
 
             nombre = textNombre.Text;
+            if (textNombre.Text == "")
+            {
+                MessageBox.Show("El nombre no contiene caracteres.");
+                return;
+            }
             apellido = textApellido.Text;
+            if (textApellido.Text == "")
+            {
+                MessageBox.Show("El apellido no contiene caracteres.");
+                return;
+            }
             dni = textDNI.Text;
+            if (textDNI.Text == "")
+            {
+                MessageBox.Show("El DNI no contiene caracteres.");
+                return;
+            }
             telefono = textTelefono.Text;
+            if (textTelefono.Text == "")
+            {
+                MessageBox.Show("El telefono no contiene caracteres.");
+                return;
+            }
             cargo = textCargo.Text;
+            if (textCargo.Text == "")
+            {
+                MessageBox.Show("El cargo no contiene caracteres.");
+                return;
+            }
 
 
             string consulta = "UPDATE personas SET nombre = @nombre, apellido = @apellido, dni = @dni, telefono = @telefono, cargo = @cargo WHERE id = @id";

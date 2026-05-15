@@ -38,17 +38,43 @@ namespace navegacion
             string cargo;
 
             nombre = textNombre.Text;
+            if (textNombre.Text == "")
+            {
+                MessageBox.Show("El nombre no contiene caracteres.");
+                return;
+            }
             apellido = textApellido.Text;
+            if (textApellido.Text == "")
+            {
+                MessageBox.Show("El apellido no contiene caracteres.");
+                return;
+            }
             dni = textDNI.Text;
+            if (textDNI.Text == "")
+            {
+                MessageBox.Show("El DNI no contiene caracteres.");
+                return;
+            }
             telefono = textTelefono.Text;
+            if (textTelefono.Text == "")
+            {
+                MessageBox.Show("El telefono no contiene caracteres.");
+                return;
+            }
             cargo = textCargo.Text;
-            
+            if (textCargo.Text == "")
+            {
+                MessageBox.Show("El cargo no contiene caracteres.");
+                return;
+            }
+
 
             string consulta = "INSERT INTO personas ('nombre', 'apellido', 'dni', 'telefono', 'cargo') VALUES (@nombre, @apellido, @dni, @telefono, @cargo)";
 
             conexion.Open();
 
             SqliteCommand comando = new SqliteCommand(consulta, conexion);
+
 
             comando.Parameters.Add(new SqliteParameter("@nombre", nombre));
             comando.Parameters.Add(new SqliteParameter("@apellido", apellido));
@@ -60,10 +86,15 @@ namespace navegacion
 
             conexion.Close();
 
-
             ventanaOrigen.ventanaVer.actualizarDataGrid();
             ventanaOrigen.ventanaVer.Show();
             this.Hide();
+
+            textNombre.Text = "";
+            textApellido.Text = "";
+            textDNI.Text = "";
+            textTelefono.Text = "";
+            textCargo.Text = "";
 
         }
 

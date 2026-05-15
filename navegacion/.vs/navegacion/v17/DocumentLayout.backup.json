@@ -3,39 +3,39 @@
   "WorkspaceRootPath": "D:\\tp1\\navegacion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\formeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\formeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|D:\\tp1\\navegacion\\navegacion\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\formagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|D:\\tp1\\navegacion\\navegacion\\formeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\formeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|D:\\tp1\\navegacion\\navegacion\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alumno\\AppData\\Local\\SourceServer\\98620ee1a2b640ede4d30825df621a7354eb3a377aaa9461a2949fb6ab843c10\\navegacion\\navegacion\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\formeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\formeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\formeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\formeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|solutionrelative:navegacion\\formmostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8056B40-29CF-426A-BCE9-7D975D8319C9}|navegacion\\navegacion.csproj|d:\\tp1\\navegacion\\navegacion\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,11 +49,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "FormMostrar.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\tp1\\navegacion\\navegacion\\FormMostrar.cs",
               "RelativeDocumentMoniker": "navegacion\\FormMostrar.cs",
@@ -65,7 +65,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "FormEditar.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\tp1\\navegacion\\navegacion\\FormEditar.cs",
               "RelativeDocumentMoniker": "navegacion\\FormEditar.cs",
@@ -77,49 +77,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Alumno\\AppData\\Local\\SourceServer\\98620ee1a2b640ede4d30825df621a7354eb3a377aaa9461a2949fb6ab843c10\\navegacion\\navegacion\\Form1.cs",
               "ToolTip": "C:\\Users\\Alumno\\AppData\\Local\\SourceServer\\98620ee1a2b640ede4d30825df621a7354eb3a377aaa9461a2949fb6ab843c10\\navegacion\\navegacion\\Form1.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAuwC0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwC0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T18:56:23.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "FormInicio.cs",
               "DocumentMoniker": "D:\\tp1\\navegacion\\navegacion\\FormInicio.cs",
               "RelativeDocumentMoniker": "navegacion\\FormInicio.cs",
-              "ToolTip": "D:\\tp1\\navegacion\\navegacion\\FormInicio.cs*",
-              "RelativeToolTip": "navegacion\\FormInicio.cs*",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAwAAAAPAAAAAAAAAA==",
+              "ToolTip": "D:\\tp1\\navegacion\\navegacion\\FormInicio.cs",
+              "RelativeToolTip": "navegacion\\FormInicio.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T19:10:08.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FormInicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\tp1\\navegacion\\navegacion\\FormInicio.cs",
               "RelativeDocumentMoniker": "navegacion\\FormInicio.cs",
-              "ToolTip": "D:\\tp1\\navegacion\\navegacion\\FormInicio.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "navegacion\\FormInicio.cs [Dise\u00F1o]*",
+              "ToolTip": "D:\\tp1\\navegacion\\navegacion\\FormInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "navegacion\\FormInicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T19:59:58.669Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FormMostrar.cs",
               "DocumentMoniker": "D:\\tp1\\navegacion\\navegacion\\FormMostrar.cs",
               "RelativeDocumentMoniker": "navegacion\\FormMostrar.cs",
               "ToolTip": "D:\\tp1\\navegacion\\navegacion\\FormMostrar.cs",
               "RelativeToolTip": "navegacion\\FormMostrar.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wBEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwFQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T19:17:27.842Z",
               "EditorCaption": ""
@@ -138,26 +138,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormAgregar.cs",
               "DocumentMoniker": "D:\\tp1\\navegacion\\navegacion\\FormAgregar.cs",
               "RelativeDocumentMoniker": "navegacion\\FormAgregar.cs",
               "ToolTip": "D:\\tp1\\navegacion\\navegacion\\FormAgregar.cs",
               "RelativeToolTip": "navegacion\\FormAgregar.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwD8AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T19:51:37.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "FormEditar.cs",
               "DocumentMoniker": "D:\\tp1\\navegacion\\navegacion\\FormEditar.cs",
               "RelativeDocumentMoniker": "navegacion\\FormEditar.cs",
               "ToolTip": "D:\\tp1\\navegacion\\navegacion\\FormEditar.cs",
               "RelativeToolTip": "navegacion\\FormEditar.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAuwFgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwF0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T20:05:46.893Z",
               "EditorCaption": ""
@@ -172,7 +172,8 @@
               "RelativeToolTip": "navegacion\\Form5.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T20:10:13.316Z"
+              "WhenOpened": "2026-04-17T20:10:13.316Z",
+              "EditorCaption": ""
             }
           ]
         }
